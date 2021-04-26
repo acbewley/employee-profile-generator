@@ -1,0 +1,25 @@
+{
+  "name": "employee-profile-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acbewley/employee-profile-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acbewley/employee-profile-generator/issues"
+  },
+  "homepage": "https://github.com/acbewley/employee-profile-generator#readme",
+  "dependencies": {
+    "fs": "*",
+    "inquirer": "^8.0.0",
+    "util": "^0.12.3"
+  }
+}
