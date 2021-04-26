@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const Choice = require('inquirer/lib/objects/choice');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -24,7 +23,18 @@ function promptUser() {
     },
     {
       type: 'input',
-
+      name: 'id',
+      message: `What is this employee's ID number?`
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: `What is this employee's email address?`
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: `What is this employee's GitHub username?`
     }
   ])
 }
